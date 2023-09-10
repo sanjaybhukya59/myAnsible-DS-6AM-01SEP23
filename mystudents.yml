@@ -1,0 +1,24 @@
+---
+- mystudens: 
+   - name: anil
+     phno: 98989898
+     address:
+        doorno: 234
+        street: hyd
+        pincoad: 500000
+
+   - name: sunil
+     phno: 7897897890
+     address:
+        doorno: 345
+        street: hyd
+        pincoad: 500007
+
+   - name: venil
+     phno: 234556788
+     address:
+        doorno: 456
+        street: hyd
+        pincoad: 500098           
+
+  
