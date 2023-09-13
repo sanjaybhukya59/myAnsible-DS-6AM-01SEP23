@@ -17,3 +17,11 @@
 
 [myredhatservers]
 10.0.0.6
+
+
+
+
+[mywebservers:vars]
+var01= value
+mywebpackonubantu= apache2
+mywebpackonredhat= httpd
