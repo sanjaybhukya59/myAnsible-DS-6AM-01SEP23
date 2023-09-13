@@ -13,14 +13,5 @@
         name: apache2
         state: started 
      when: ansible_os_family== "Debian"  
-   - name: in this task, i want to install httpd webserver on Redhat
-     dnf:
-       name: httpd
-       state: present
-     when: ansible_os_family== "Redhat"
-   - name: in this task, i want to webserver on Redhat
-     service:
-         name: httpd
-         stste: started
-     when: ansible_os_family== "Redhat"              
+                 
        
