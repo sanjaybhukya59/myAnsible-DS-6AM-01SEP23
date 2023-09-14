@@ -21,7 +21,4 @@
 
 
 
-[mywebservers:vars]
-var01= value
-mywebpackonubantu= apache2
-mywebpackonredhat= httpd
+
