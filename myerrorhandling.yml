@@ -9,8 +9,9 @@
 
    - name: install tree
      apt: 
-      name: tree
-      stateee: present
+       name: tree
+       stateee: present
+     ignore_errors: true  
 
    - name: install wget
      apt:
