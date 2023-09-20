@@ -7,3 +7,8 @@
   copy:
     src: mycopyfile
     dest: /home/sanjay/mycopyfile
+- name: install webserver
+  apt:
+    name: apache2
+    state: present
+        
