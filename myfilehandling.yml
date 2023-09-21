@@ -11,4 +11,8 @@
   apt:
     name: apache2
     state: present
+- name: copy index file into node side
+  tamplate:
+       src: myindexfile.j2
+       dest: /var/www/html/index.html    
         
