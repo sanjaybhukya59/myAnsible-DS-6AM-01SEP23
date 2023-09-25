@@ -3,13 +3,3 @@
   become: yes
   tasks:
   - include_task: myfile.yml
-- name: copy file from master to node\
-  copy:
-    src: mycopyfile
-    dest: /home/sanjay/mycopyfile
-- name: install webserver
-  apt:
-    name: apache2
-    state: present
-    
-        
