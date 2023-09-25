@@ -3,3 +3,7 @@
   become: yes
   tasks:
   - include_tasks: myfile.yml
+  - name: copy file from master to nodes\
+    copy:
+      src: mycopyfile
+      dest: /home/sanjay/mycopyfile
