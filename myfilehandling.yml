@@ -14,7 +14,8 @@
   - name: copy index file into node side
     template:
          src: myindexfile.j2
-         dest: /var/www/html/index.html    
+         dest: /var/www/html/index.html  
+    notify: restartwebserver       
 
   - name: download internet file 
     get_url:
